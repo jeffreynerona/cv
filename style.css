@@ -19,6 +19,7 @@ time, mark, audio, video {
     font-size:100%;
     vertical-align:baseline;
     background:transparent;
+    box-sizing: border-box;
 }
 
 body {
@@ -30,7 +31,6 @@ body {
 article,aside,details,figcaption,figure,
 footer,header,hgroup,menu,nav,section { 
     display:block;
-    box-sizing: border-box;
 }
 
 nav ul {
@@ -116,6 +116,10 @@ p {
 
 ul {
     padding-left: 24px;
+}
+
+section {
+	max-width: 100%;
 }
 
 header {
@@ -228,3 +232,39 @@ span.experience-title, span.education-title {
     color: royalblue;
     display: inline-block;
 }
+
+@media only screen and (max-width: 1100px)  {
+	header #name-title, header #contact-details {
+	    padding: 0 20px;
+	}
+
+	.half {
+		width: 100%;
+		margin-right: 0;
+	}
+}
+
+@media only screen and (max-width: 950px)  {
+	header #name-title, header #contact-details {
+	    display: block;
+	    margin: auto;
+	    width: 100%;
+	    text-align: center!important;
+	    margin-bottom: 10px;
+	}
+	header #header-middle {
+	    display: block;
+	}
+	header figure {
+		width: 100%;
+		display: block;
+	}
+	header figure img {
+		margin: 0 auto;
+		display: block;
+	}
+	.experience h4, .education-entry h4 {
+		max-width: 100%;
+	}
+}
+
