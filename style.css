@@ -220,7 +220,7 @@ span.experience-title, span.education-title {
 .experience h4, .education-entry h4 {
     padding: 8px;
     background: #ffffff;
-    width: 380px;
+    width: 390px;
     border: 1px solid royalblue;
     border-radius: 3px;
     margin-bottom: 5px;
@@ -231,6 +231,11 @@ span.experience-title, span.education-title {
     padding: 8px;
     color: royalblue;
     display: inline-block;
+}
+
+.right {
+	text-align: right;
+	display: block;
 }
 
 @media only screen and (max-width: 1100px)  {
