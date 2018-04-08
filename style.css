@@ -180,7 +180,7 @@ h3 {
 }
 
 #main section {
-	margin-bottom: 30px;
+	margin-bottom: 50px;
 }
 
 .half {
@@ -207,7 +207,7 @@ span.experience-title, span.education-title {
 }
 
 #skills .skill {
-    width: 150px;
+    width: 180px;
     background: #ffffff;
     border-radius: 3px;
     border: 1px solid royalblue;
