@@ -273,3 +273,7 @@ span.experience-title, span.education-title {
 	}
 }
 
+b {
+    display: block;
+    font-weight: 500;
+}
