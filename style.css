@@ -107,7 +107,7 @@ h1 {
 }
 
 h2 {
-	font-size: 1.4em;
+	font-size: 1.2em;
 }
 
 p {
@@ -203,7 +203,7 @@ h3 {
 }
 
 span.experience-title, span.education-title {
-    font-size: 1.4em;
+    font-size: 1.2em;
 }
 
 #skills .skill {
@@ -275,5 +275,6 @@ span.experience-title, span.education-title {
 
 b {
     display: block;
-    font-weight: 500;
+    font-weight: bold;
+    font-size: 14px;
 }
